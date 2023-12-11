@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+@font-face {
+    font-family: light;
+    src: url(light.ttf);
+  }
+  @font-face {
+    font-family: bold;
+    src: url(bold.ttf);
+  }
+  @font-face {
+    font-family: regular;
+    src: url(regular.ttf);
+  }
+  @font-face {
+    font-family: semibold;
+    src: url(semibold.ttf);
+  }
+  @font-face {
+    font-family: medium;
+    src: url(medium.ttf);
+  }
+.div_body3{
+    height: 800px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+ 
+#about_me{
+  color: rgba(0, 0, 0, 0.856);
+  font-family: semibold;
+  font-size: 60px;
+}
+#para_about_me{
+  color: rgba(0, 0, 0, 0.856);
+  font-family: regular;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 1.8;
+}
+.div_body4{
+  height: 800px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+ 
+#lets{
+  color: rgba(0, 0, 0, 0.856);
+  font-family: regular;
+  font-size: 60px;
+}
+#connect{
+  color: rgba(0, 0, 0, 0.856);
+  font-family: semibold;
+  font-size: 60px;
+  margin-left: 15px;
+}
+.lets_vertical{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.contact_text{
+  color: rgba(0, 0, 0, 0.856);
+  font-family: medium;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+
+
+
+.footer_div{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #6C6C6C;
+  flex-direction: column;
+}
+.footer_text{
+  color: #ffffff;
+  font-family: regular;
+  font-size: 15px;
+  margin-top: 40px;
+}
