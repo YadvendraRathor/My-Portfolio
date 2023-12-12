@@ -39,6 +39,8 @@
     align-items: end;
   
 }
+
+
 .logo{
     background-image:url("icon.png");
     height: 30px;
@@ -72,6 +74,13 @@
     font-size: 16px;
     margin-right:55px;
 }
+
+.div_options:hover{
+ 
+    font-family: bold;
+  
+}
+
 .contact_button{
     height: 28px;
     width: 100px;
@@ -80,6 +89,15 @@
     border-radius: 7px;
     font-family: semibold;
 }
+.contact_button:hover{
+    height: 38px;
+    width: 110px;
+    background-color: #D6FC41;
+    border: none;
+    border-radius: 7px;
+    font-family: bold;
+}
+
 .div_body{
     height: 800px;
     width: 100%;
@@ -148,7 +166,17 @@
     display: flex;
     align-items: center;
 }
+#github_yellow{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#github_yellow:hover{
+   border: #ffffff;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 2px;
 
+}
 
 #down_cv_btn{
   
@@ -162,7 +190,13 @@
     margin-top: 10px;
   
 }
-
+#down_cv_btn:hover{
+  
+    height: 50px;
+    width: 170px;
+    font-family: bold;
+  
+}
 
 .body_box2{
     height: 600px;
